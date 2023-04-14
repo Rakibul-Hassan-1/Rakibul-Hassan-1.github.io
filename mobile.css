@@ -1,0 +1,31 @@
+/* for mobile devices */
+@media screen and (max-width: 480px) {
+    /* adjust font sizes and margins for smaller screens */
+    body {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    /* adjust layout for smaller screens */
+    .img_set, .img_set2 {
+      flex-direction: column;
+      align-items: center;
+    }
+    .half_width {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .ex_area {
+      padding: 20px;
+    }
+  }
+  

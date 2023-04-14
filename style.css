@@ -1,0 +1,353 @@
+/* Default styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+  }
+  .half_width img {
+    margin-left: 110px;
+  }
+    
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.hidden-btn{
+ text-decoration: none;
+}
+
+.flex_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.half_width {
+    width: 48%;
+    text-align: center;
+}
+
+.img_set {
+    background-color: #f5f5f5;
+    padding: 100px;
+}
+
+.img_set2 {
+    padding: 100px;
+}
+
+.name_color {
+    color: #007bff;
+}
+
+.hire_me, .cnt_me {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.hire_me:hover, .cnt_me:hover {
+    background-color: #0062cc;
+}
+
+.ex_area {
+    background-color: #f5f5f5;
+    padding: 100px;
+    text-align: center;
+}
+
+.ex1, .ex2 {
+    width: 45%;
+    margin: 50px auto;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    .half_width {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .img_set {
+        padding: 50px;
+    }
+    .img_set2 {
+        padding: 50px;
+    }
+    .ex1, .ex2 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .flex_cont {
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px auto;
+    }
+    .half_width {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .img_set {
+        padding: 30px;
+    }
+    .img_set2 {
+        padding: 30px;
+    }
+    .ex1, .ex2 {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .hire_me, .cnt_me {
+        margin-top: 20px;
+    }
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.flex_cont{
+    display: flex;
+    padding-bottom: 130px;
+}
+.name_color{
+    color: orange;
+    font-weight: 500px;
+}
+
+.half_width{
+    width: 50%;
+    padding: 50px;
+}
+.half_width img{
+    width: 100%;
+}
+.hire_me{
+    padding: 10px 10px;
+    background: linear-gradient(orange,tomato);
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 50px;
+    text-decoration: none;
+}
+.img_set{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.img_set2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.cnt_me{
+    padding: 10px 10px;
+    background: linear-gradient(orange,tomato);
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 50px;
+    text-decoration: none;
+}
+h3{
+    color: orange;
+}
+.ex_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex1{
+    width: 45%;
+    margin-left:  2.5%;
+    margin-right: 2.5%;
+    padding-left: 20px;
+    box-shadow: 5px 2px 10px gray, -5px 0px 0px red;
+    border-radius: 10px;
+
+}
+.ex2{
+    width: 45%;
+    margin-left:  2.5%;
+    margin-right: 2.5%;
+    padding-left: 20px;
+    box-shadow: 5px 2px 10px gray , -5px 0px 0px blue;
+    border-radius: 10px;
+}
+
+        nav {
+            background-color: #333;
+            height: 50px;
+          }
+          
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+          }
+          
+          li {
+            float: left;
+            height: 100%;
+          }
+          
+          button {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            height: 100%;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            font-size: 16px;
+          }
+            
+          .hire_me {
+            background-color: #ffc107;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+          }
+          
+          .hire_me:hover {
+            transform: translateY(-5px);
+          }
+
+          
+
+          .btn {
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            background-color: #008CBA;
+            text-decoration: node;
+            color: #fff;
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+            padding: 12px 24px;
+            border-radius: 4px;
+            transition: all 0.4s ease-in-out;
+          }
+          
+          .btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            opacity: 0.1;
+            transition: all 0.4s ease-in-out;
+          }
+          
+          .btn:hover:before {
+            left: 0;
+          }
+          
+          .btn:hover {
+            color: #008CBA;
+            background-color: #fff;
+            border: 1px solid #008CBA;
+          }
+
+          
+
+
+          button:hover {
+            background-color: #111;
+          }
+          .social-icons {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+          }
+          
+          .social-icons a {
+            color: #fff;
+            margin-left: 10px;
+          }
+          
+          .social-icons a:hover {
+            color: #ccc;
+          }
+          
+          .fa {
+            font-size: 24px;
+          }
+          .hire_me span {
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+          }
+          
+          .hire_me span::after {
+            content: '→';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+          }
+          
+          .hire_me:hover span {
+            padding-right: 25px;
+          }
+          
+          .hire_me:hover span::after {
+            opacity: 1;
+            right: 0;
+          }
+          .social-icons {
+            position: absolute;
+            top: 0%;
+            left: 0px;
+            transform: translateY(50%);
+          }
+          
+          .social-icons a {
+            margin-right: 10px;
+          }
+          
+          .social-icons {
+            position: absolute;
+            top: -25px;
+            left: 0;
+            width: 100px;
+            height: 50px;
+          }
+          
+
+
+
+
+          
